@@ -1,0 +1,56 @@
+.container-style {
+  max-width: 900px;
+  padding: 0;
+  margin: auto;
+  background-color: black;
+  box-shadow: 10px 5px 5px rgb(99, 92, 92);
+  border-radius: 4px;
+}
+.header-style {
+  width: 100%;
+  color: azure;
+  text-align: center;
+}
+.title {
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.body-style {
+  margin: auto;
+  margin-top: 50px;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Rubik", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.body_img {
+  margin-top: 20px;
+  float: left;
+  width: 240px;
+  animation: bounce 1s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-15px);
+  }
+}
+.body_content {
+  margin-left: 245px;
+  text-align: left;
+  font-size: 15;
+  line-height: 1.5;
+  color: azure;
+}
+.footer {
+  text-align: center;
+  clear: both;
+  height: 50px;
+  padding: auto;
+  color: azure;
+  margin-top: 20px;
+}
